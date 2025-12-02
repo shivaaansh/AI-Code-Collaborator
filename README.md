@@ -1,67 +1,111 @@
-🔗 CodeDekho – AI-Powered Real-Time Code Collaborator
-CodeDekho is a web application that enables multiple users to collaborate on code in real time, run code in various programming languages, and get AI-driven reviews and optimization suggestions.
+# 🔗 CodeDekho – AI-Powered Real-Time Code Collaborator
 
-🚀 Features
-🧑‍💻 Real-Time Collaboration
-Multiple users can join a shared code room and collaborate live via WebSockets.
+**CodeDekho** is a powerful real-time collaborative coding platform that enables multiple users to edit code together, execute programs in multiple languages, and receive intelligent AI-based reviews and optimization suggestions.
 
-💡 AI Code Review
-Integrated Gemini API to analyze and suggest best practices, optimizations, and improvements.
+---
 
-⚙️ Multi-Language Code Execution
-Supports real-time code execution in C++, Python, Java, and JavaScript using the Piston API.
+## 🚀 Features
 
-📡 Room Management with Socket.IO
-Users can join/leave rooms and sync code edits with real-time accuracy.
+### 🧑‍💻 Real-Time Collaboration
 
-🌐 Modern Tech Stack
-Built with a clean and responsive UI, and a scalable backend for seamless experience.
+Work with peers seamlessly inside shared coding rooms powered by **Socket.IO**, enabling instant updates and synchronized edits.
 
-🛠️ Tech Stack
-Layer	Technologies
-Frontend	React.js, JavaScript, CSS, Socket.IO
-Backend	Node.js, Express.js, Socket.IO
-APIs Used	Piston API, Gemini API
-Others	Vite, Nodemon, Axios
-📷 Screenshots
-Joining Code Rooms
-Join Room
+### 💡 AI Code Review
 
-Collaborative Editor
-Editor
+Integrated **Gemini API** analyzes code for best practices, structure, performance, and advanced optimization suggestions.
 
-AI Review Response
-AI Review
+### ⚙️ Multi-Language Code Execution
 
-🧪 How It Works
-User joins a room via a unique Room ID.
-The code editor is synced across users using Socket.IO.
-Code can be written and executed instantly via the Piston API.
-An AI Review can be triggered using the Gemini API to receive feedback on code quality, structure, and optimizations.
-🔧 Getting Started (Local Setup)
-1. Clone the Repository
-git clone https://github.com/your-username/code-dekho.git
-2. Install Dependencies
-Frontend:
+Run code instantly across multiple languages using the **Piston API**:
 
+* C++
+* Python
+* Java
+* JavaScript
+
+### 📡 Live Room Management
+
+Create, join, and leave rooms with real-time accuracy and reliable edit syncing.
+
+### 🌐 Modern & Scalable Tech Stack
+
+Clean UI and scalable backend architecture for smooth real-time collaboration.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer         | Technologies                         |
+| ------------- | ------------------------------------ |
+| **Frontend**  | React.js, JavaScript, CSS, Socket.IO |
+| **Backend**   | Node.js, Express.js, Socket.IO       |
+| **APIs Used** | Piston API, Gemini API               |
+| **Others**    | Vite, Nodemon, Axios                 |
+
+---
+
+## 📷 Screenshots
+
+Joining Rooms • Collaborative Editor • AI Review
+*(Images to be added here)*
+
+---
+
+## 🧪 How It Works
+
+1. User creates or joins a coding room using a **Room ID**
+2. Editor syncs live code changes across all connected clients with **Socket.IO**
+3. Code executes in real time via **Piston API**
+4. **Gemini AI Review** provides feedback, improvements, and optimization suggestions
+
+---
+
+## 🔧 Getting Started (Local Setup)
+
+### 1️⃣ Clone Repository
+
+`git clone https://github.com/your-username/code-dekho.git`
+
+### 2️⃣ Install Dependencies
+
+**Frontend**
+
+```
 cd frontend
 npm install
-Backend:
+```
 
+**Backend**
+
+```
 cd ../backend
 npm install
-3. Run the Servers
-Start Backend:
+```
 
+### 3️⃣ Run Servers
+
+**Start Backend**
+
+```
 npm run dev
-Start Frontend:
+```
 
+**Start Frontend**
+
+```
 cd ../frontend
 npm run dev
-Open your browser and visit:
-http://localhost:5173
+```
 
-📦 Folder Structure
+### 🔗 Visit App
+
+`http://localhost:5173`
+
+---
+
+## 📦 Folder Structure
+
+```
 .
 ├── frontend
 │   └── src/
@@ -70,8 +114,21 @@ http://localhost:5173
 ├── backend
 │   └── index.js
 ├── README.md
-📈 Future Improvements
-Enhance AI reviews to support multiple suggestions with scoring.
-Add user authentication and room persistence.
-Implement better concurrency control for large groups.
-Integrate audio chat feature for real-time verbal collaboration in a room.
+```
+
+---
+
+## 📈 Future Improvements
+
+* Advanced AI review system with scoring and multiple suggestions
+* User authentication & persistent room storage
+* Enhanced concurrency support for large user groups
+* Real-time **voice chat** integration
+
+---
+
+## ⭐ Contribute & Support
+
+Contributions are welcome! If you like this project, please consider leaving a **⭐ star** on GitHub.
+
+### Made with 💙 for developers, by a developer {Shivansh Gupta}.
